@@ -1,0 +1,55 @@
+*{
+  font-family: fantasy;
+}
+
+body{
+  background-image: url("../images/bg1.jpg");
+  background-size: cover;
+}
+
+button{
+  font-size: 30px;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  border: none;
+}
+
+#healthBarShell {
+    
+    height: 50px;
+    background: rgba(0,0,0,.5);
+    border-radius: 12px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 10px 16px 0px 15px;
+  }
+  
+  #healthBarValue {
+    width: 100%;
+    height: 30px;
+    background: rgba(30, 255, 0, 0.5);
+    border: solid 1px;
+    border-color: rgba(255,255,255,.7);
+    box-sizing: border-box;
+    margin: 0px;
+    position: relative;
+    transition: 0.65s ease-in-out;
+}
+#output{
+  
+  font-size: 25px;
+}
+#charm{
+  width: 20%;
+  margin: 50px;
+}
+#welcome{
+  font-size: 50px;
+  text-align: center;
+}
+section{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

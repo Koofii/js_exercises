@@ -1,0 +1,15 @@
+.board > div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 3px;
+    display: inline-block;
+    
+}
+.board{
+    width: 500px;
+}
+
+.flipped{
+    background-color: red;
+}

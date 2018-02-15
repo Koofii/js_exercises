@@ -1,0 +1,11 @@
+.memory-brick{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+}
+section{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-gap: 10px;
+    
+}

@@ -1,0 +1,20 @@
+body{
+    background-image: url("fortnite.jpg");
+    background-size: cover;
+    font-family: 'Rammetto One', cursive;
+    font-size: 50px;
+}
+.should-i-play{
+    margin-top: 45vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+.should-i-play button{
+    font-family: 'Rammetto One', cursive;
+    font-size: 50px;
+    padding: 20px;
+    background-color: white;
+
+}
